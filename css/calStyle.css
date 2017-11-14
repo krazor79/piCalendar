@@ -1,0 +1,53 @@
+/* GLOBAL STYLES */
+body {
+  font-family: helvetica, arial, sans;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  color:red;
+  height:100vh;
+  width:100vw;
+}
+div{
+  display: block;
+}
+#wholePage{
+  border: solid 2px green;
+  height: 99%;
+  width: 99%;
+  margin: auto;
+  /*float:left;*/
+}
+#LeftSide{
+  width:29vw;
+  height: 100%;
+  float: left;
+  margin: 0 auto;
+  border: solid 2px blue;
+}
+#RightSide{
+  float:right;
+  width:69vw;
+  height: 100%;
+  margin: 0 auto;
+  border: solid 2px red;
+}
+#itinerary{
+  height:58vh;
+  border: solid 2px purple;
+  margin:0 auto;
+}
+
+.Traffic{
+  height:20vh;
+  margin:auto;
+}
+#weather{
+  height:20vh;
+  border: solid 2px black;
+}
+#calendar{
+  height: 78vh;
+  border: solid 2px gray;
+}
